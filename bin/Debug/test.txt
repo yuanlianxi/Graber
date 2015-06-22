@@ -1,0 +1,819 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="x-ua-compatible" content="ie=emulateie7" />
+    <title>二手车之家最终页</title>
+    <style type="text/css">.icon16,.city-tx a em,.icon24,.nav-main li.current a em,.icon12,.icon10{background:url(http://img.autoimg.cn/2scimg/web/website/20150415/top-icon_v1.png) no-repeat}.icon16{width:16px;height:16px;display:inline-block}.icon24{width:24px;height:24px;display:inline-block}.icon12{width:12px;height:12px;display:inline-block}.icon10{width:102px;height:10px;display:inline-block}.fn-hide{display:none}.fn-left{float:left}.fn-right{float:right}.mini-main ul li .icon10-down1,.mini-right .icon16-iphone{background:url(http://img.autoimg.cn/2scimg/web/website/20150415/top-icon_v1.png) no-repeat}a.phonelink{font-family:\5B8B\4F53}a.phonelink:link,a.phonelink:visited{color:#999}a.phonelink:hover{color:#f84949;text-decoration:underline}.minitop a.reda:link,.minitop a.reda:visited,.minitop a.reda:hover,.minitop .reda{color:#f84949;font-weight:normal!important}.minitop a:link,.minitop a:visited{color:#3b5998}.minitop .reda{float:none}.minitop{height:26px;line-height:26px;background-color:#f9f9f9;border-bottom:solid 1px #efefef;border-top:solid 1px #f9f9f9;position:relative;z-index:11000;font-family:\5B8B\4F53}.minitop a:link,.minitop a:visited,.citycon a.a1:link,.citycon a.a1:visited{text-decoration:none;outline:0}.minitop a:hover,.citycon a.a1:hover{color:#f84949}.mini-main{width:990px;height:26px;color:#999;text-align:left;margin:0 auto;position:relative;z-index:220;background-color:#f9f9f9}.mini-left,.mini-right{position:relative}.mini-left{float:left;z-index:30}.mini-right{float:right;text-align:right;z-index:25}.cityli,.moveli,.moreli,.bbsli{position:relative}.cityli-title a,.moreli-title a,.bbsli-title a{display:block;height:26px;cursor:pointer}.mini-main ul{position:relative}.mini-main ul li .icon10-down1{width:7px;height:7px;float:left;margin:11px 0 0 4px;overflow:auto;background-position:0 -38px}.mini-main ul li a:hover .icon10-down1,.moreli-active .icon10-down1{background-position:-20px -38px}.mini-left ul li,.mini-right ul li{float:left;position:relative}.mini-left ul li.vl,.mini-right ul li.vl{width:0;height:12px;line-height:12px;border-left:1px solid #d2d2d2;position:absolute;left:0;top:7px}.mini-left ul li.cslbtt a{margin-right:8px}.mini-left ul li span{padding:0 5px}.mini-left ul li.cityli .citypop{top:27px;left:-7px}.mini-left ul li .cityli-title{width:38px;padding-left:8px;z-index:30;position:relative;text-align:left}.mini-left ul li .cityli-title span{float:left;padding:0}.mini-left-logo{display:inline-block;padding-top:4px;float:left}.mini-left .tip{color:#666;white-space:nowrap;top:0;right:-210px}.topchadiv-box,.topchadiv-top,.moreli-active{background:url(http://www.autoimg.cn/2scimg/web/website/20140506/shadow_bg.png) repeat}.mini-right ul.frs{float:right;background-position:-335px 7px;font-family:Arial}.mini-right ul.frs-login{padding:0 14px}.mini-right ul.frs-login .moreli-title{border:0;overflow:hidden}.mini-right ul.frs-login a{padding:0 2px}.mini-right ul li.nopd{padding:0}.moreli-title{float:left;height:26px;border-right:solid 1px #f9f9f9;padding-left:1px;vertical-align:top}.moreli-title a{display:inline-block;padding:0 14px;cursor:pointer}.moreli-active{border:0;padding-left:0}.moreli-active a{border-left:solid 1px #ccd3e4;border-right:solid 1px #ccd3e4;background-color:#f9f9f9}.moreli-active a:link,.moreli-active a:visited,.moreli-active a:hover{color:#f84949}.moreli-title i,.moreli-title span{float:left;cursor:pointer}.mini-right .icon16-phone{width:16px;height:16px;display:inline-block;margin:6px 0 0 0;background-position:0 -17px}.mini-right .icon12{margin:7px 6px 0 0}.mini-right li a:hover .icon12-array1,.moreli-active .icon12-array1{background-position:-100px -380px}.mini-right li a:hover .icon16-club,.moreli-active .icon16-club{background-position:-40px -440px}.mini-right li a:hover .icon16-phone,.moreli-active .icon16-iphone{background-position:-20px -17px}.moreli-title span.info{display:inline-block;height:11px;padding:2px 3px;text-align:center;line-height:11px;background-color:#f60;border-radius:2px;color:#fff;position:relative;top:5px;margin:0 1px 0 5px;font-weight:bold;vertical-align:baseline}.topchadiv{position:absolute;right:-2px;top:27px;z-index:10;display:none}.topchadiv-dw02,.topchadiv-dw03{_right:-3px}.topchadiv-top,.topchadiv-box{padding:0 2px 2px 0;clear:both}.mini-right .topchadiv-dw03 .topchadiv-box-w{width:155px}.topchadiv-top{width:2px;padding:0;position:absolute;right:0;top:-27px;background-color:#fafafa}.topchadiv-top-con{width:2px;height:27px}.topchadiv-box{position:relative;top:-1px}.topchadiv-dw01 .topchadiv-box{width:110px}.topchadiv-dw01 .topchadiv-box-w{width:130px}.topchadiv-dw02 .topchadiv-box{min-width:130px;overflow:visible;_width:130px}.topchadiv-con{border:solid 1px #ccd3e4;background-color:#fff;line-height:20px;text-align:left;padding:5px 0}.topchadiv-dw01 .topchadiv-box-w .topchadiv-con{background-color:#efefef;padding:10px 0;text-align:center}.topchadiv-con a{display:block;height:27px;line-height:27px;white-space:nowrap;padding:0 15px;overflow:hidden}.topchadiv-con a{height:auto;line-height:22px;padding:0 10px}.topchadiv-con a:link,.topchadiv-con a:visited,.topchadiv-con a:hover{color:#666}.topchadiv-con a span{display:inline-block}.topchadiv-con a span.cn{color:#666;float:left}.topchadiv-con a span.ck{cursor:pointer;float:right}.mini-right .frs li .topchadiv-con a:hover{color:#3b5998;background-color:#f9f9f9}.linedc{border-top:dotted 1px #cecece;height:1px;clear:both;font-size:0;margin:5px;line-height:0}.topchadiv-dw02 .topchadiv-con a{min-width:120px;overflow:visible}.topchadiv-dw03 .topchadiv-con a{padding:0 10px}.topchadiv-dw03 .topchadiv-con a:link,.topchadiv-dw03 .topchadiv-con a:visited,.topchadiv-dw03 .topchadiv-con a:hover{color:#3b5998}.topchadiv-dw01 .topchadiv-box-w .topchadiv-con .mt5{margin-bottom:5px}.pop{position:absolute;padding:2px;background:url(http://www.autoimg.cn/2scimg/web/website/20140506/shadow_bg.png) repeat;z-index:1000;font-size:12px}.pop01{width:486px}.pop .pop-arrow{display:inline-block;overflow:hidden;position:absolute;z-index:2;background:url(http://www.autoimg.cn/2scimg/web/website/20140506/layer_arrow24.png) no-repeat;_background:url(http://www.autoimg.cn/2scimg/web/website/20140506/layer_arrow8.png) no-repeat}.pop .pop-top,.pop .pop-bottom{width:15px;height:11px}.pop .pop-content{position:relative;z-index:1;border:1px solid #ccd3e4;background-color:#fff}.pop .pop-left,.pop .pop-right{width:11px;height:15px}.pop .pop-content h3,.pop .pop-content .pop-content-bottom{height:28px;line-height:28px;padding:0 8px;font-size:12px;background-color:#fafbfc;overflow:hidden}.pop .pop-content h3{border-bottom:1px solid #ccd3e4}.pop .pop-content .pop-content-bottom{border-top:1px solid #ccd3e4}.pop .pop-close{display:inline-block;width:16px;height:16px;padding:4px;position:absolute;top:1px;right:3px;background-color:#fff}.pop [class="pop-close"]{top:0;right:0}.pop h3 a.pop-close{width:16px;height:16px;line-height:16px;padding:6px;border-left:1px solid #ccd3e4;background-color:#fafbfc;background-position:-18px 2px}.pop h3 a.pop-close i{background-position:-18px 2px}.pop h3 a.pop-close:hover,.pop .pop-close:hover{background-color:#3b5998}.pop h3 a.pop-close:hover i,.pop .pop-close:hover i{background-position:2px 2px}.pop .pop-content .pop-content-info{padding:10px;min-height:100px}.pop .pop-arrow .pop-arrow-shadow{filter:alpha(opacity=10);-moz-opacity:.1;opacity:.1}.pop .pop-arrow .pop-arrow-shadow,.pop .pop-arrow .pop-arrow-border,.pop .pop-arrow .pop-arrow-background{overflow:hidden;position:absolute;font-size:12pt}.pop01 .pop-top{bottom:-8px;left:40px;background-position:0 -10px}.pop01 .pop-bottom{top:-8px;left:52px;background-position:0 0}.pop .pop-left{top:46%;right:-8px;background-position:-30px -29px}.pop .pop-right{top:46%;left:-8px;background-position:-20px -29px}.header{width:990px;height:90px;margin:0 auto;font:12px/1.5 'Microsoft YaHei',arial,tahoma,sans-serif}.header .logo{padding-top:20px;width:152px;float:left}.header .header-city{float:left;position:relative;margin:35px 0 0 45px;z-index:500}.city-tx a:link,.city-tx a:visited{color:#666}.city-tx a span{float:left;font-size:16px;font-weight:bold}.city-tx a em{width:7px;height:7px;float:left;display:inline-block;margin:10px 0 0 8px;background-position:-20px -38px;overflow:hidden}.citypop{line-height:26px;z-index:1000;display:none;top:25px;left:-16px}.citypop .pop-content{padding:0}.citypop .pop-content .pop-content-info{padding:0!important}.citypop .pop-content h3{overflow:inherit!important;_position:relative}.citypop .pop-content .pop-content-info{padding:0}.citypop .pop-content .pop-content-info a:link,.citypop .pop-content .pop-content-info a:visited,.citypop .pop-content .pop-content-info a:hover{text-decoration:none}.citypop .pop-arrow{padding:0}.citypop .citypop-search{width:140px;height:22px;float:left;margin-top:2px;border:solid 1px #ccd3e4;background-color:#fff;position:relative}.citypop .citypop-search .icon16-search2{position:absolute;top:3px;left:3px;background-position:0 -117px}.citypop .citypop-search input{outline:0;height:22px;line-height:22px;width:118px;position:absolute;left:22px;top:0;border:0;background-color:#fff;color:#ccc;padding:0}.citypop .citypop-search input.focus{width:132px;padding:0 4px;left:0;color:#000}.citypop .citypop-search .citypop-ct{width:185px;position:absolute;left:-1px;top:24px;border:solid 1px #ccd3e4;background-color:#fff}.citypop .citypop-search .citypop-ct .zdicon,.citypop .citypop-search .citypop-ct .ntextdicon{height:14px;line-height:14px;padding:2px 0 2px 20px;color:#ccc;position:relative}.citypop .citypop-search .citypop-ct .icon12-exc{position:absolute;left:5px;top:3px;background-position:-20px -117px}.citypop .citypop-search .citypop-ct .icon10-down3{position:absolute;left:7px;top:4px;background-position:-25px -134px}.citypop .citypop-search .citypop-ct ul{width:185px;list-style:none;padding:0;margin:0;overflow:hidden}.citypop .citypop-search .citypop-ct ul li{height:26px;line-height:26px;overflow:hidden;border-top:dotted 1px #ccd3e4}.citypop .citypop-search .citypop-ct ul li a{display:inline-block;width:161px;height:26px;line-height:26px;padding:0 12px;cursor:pointer}.citypop .citypop-search .citypop-ct ul li a:hover,.citypop .citypop-search .citypop-ct ul li.selected{background-color:#f9f9f9}.citypop .citypop-search .citypop-ct ul li span{float:left;display:inline-block;padding:0}.citypop .citypop-search .citypop-ct ul li b{display:inline-block;font-weight:100;color:#ccc;float:right}.citypop .citypop-hotcity{float:left;padding-left:5px}.citypop .citypop-hotcity a{margin-left:10px;display:inline-block;float:left}.citypop .citypop-nb{height:28px;padding:8px 6px;border-bottom:dotted 1px #ccd3e4}.citypop .citypop-nb a{display:inline-block;width:19px;height:19px;line-height:19px;border-radius:2px;margin:4px;font-family:Arial,Helvetica,sans-serif;font-size:14px;text-align:center;border:solid 1px #ccd3e4;background-color:#f0f9fe;float:left}.citypop .citypop-nb a:hover,.citypop .citypop-nb a.current:link,.citypop .citypop-nb a.current:hover,.citypop .citypop-nb a.current:visited{background-color:#3b5998;border:solid 1px #29447e;color:#fff}.citypop .citypop-scity{height:255px;overflow-y:scroll;overflow-x:hidden}.citypop .citypop-scity dl{border-top:dotted 1px #ccd3e4;margin:0;overflow:hidden;padding:6px 0;padding:8px 0\9}.citypop .citypop-scity dl.dlbg{background-color:#f9f9f9}.citypop .citypop-scity dl.dlbg-top{border-top:0}.citypop .citypop-scity dl dt,.citypop .citypop-scity dl dd{float:left;margin:0}.citypop .citypop-scity dl dt{width:76px;color:#333;text-align:right;font-weight:bold;padding-top:2px}.citypop .citypop-scity dl dt .tx,.citypop .citypop-scity dl dt .nu{height:20px;line-height:20px;display:inline-block;float:right;padding:0}.citypop-scity dl dt .tx a:link,.citypop-scity dl dt .tx a:visited{color:#333}.citypop-scity dl dt .tx a:hover{color:#f90}.citypop .citypop-scity dl dt .nu{float:left;font-family:Arial,Helvetica,sans-serif;font-size:18px;color:#d0d0d0;font-weight:100;padding-left:10px}.citypop .citypop-scity dl dd{width:390px;min-height:30px}.citypop .citypop-scity dl dd a:link,.citypop .citypop-scity dl dd a:active,.citypop .citypop-scity dl dd a:visited{height:20px;line-height:20px;display:block;float:left;padding:0 5px;margin:2px;white-space:nowrap}.citypop .citypop-scity dl dd a:hover{height:20px;line-height:20px;color:#fff;background-color:#f90;_color:#d60000;_background-color:none}.citypop .citypop-scity a.current:link,.citypop .citypop-scity a.current:hover,.citypop .citypop-scity a.current:visited{background-color:#f60;color:#fff}.citypop .citypop-scity dl:after,.citypop .citypop-scity dl dd:after,.citypop-ct ul li a:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;line-height:0}.citypop .citypop-scity dl,.citypop .citypop-scity dl dd,.citypop-ct ul li a{zoom:1}.search{position:relative;float:right;margin-top:25px;z-index:202}.search .search-box{line-height:normal;float:left;border-right:0;overflow:hidden}.search input.search-text{color:#999;background-color:#fff;border:2px solid #e3e3e3;border-right:0;float:left;height:36px;line-height:36px;width:528px;padding-left:10px}.search .search-btn{float:left;width:90px;height:40px;line-height:40px;text-align:center;font-size:18px;display:inline-block;background-color:#f90;font-family:"Microsoft Yahei"}.search .search-btn:link,.search .search-btn:visited{color:#fff}.search .search-btn:hover{background-color:#fb0}.search-pop{width:538px;border:1px solid #ccd3e4;position:absolute;top:41px;left:0;z-index:200;background-color:#fff}.search-pop a{display:block;height:30px;line-height:30px;padding:0 15px}.search-pop a:link,.search-pop a:visited{color:#666;text-decoration:none}.search-pop a:hover,.search-pop li.current a{text-decoration:none;background-color:#f2f5f8}.search-pop a .red{color:#f84949}.search-pop .search_history{padding:10px 15px;overflow:hidden;zoom:1}.search-pop .title{line-height:24px;font-size:14px;color:#333}.search-pop .search_history li{float:left;margin-right:25px}.search-pop .search_history li a{float:left;padding:0}.search-pop .history li a:hover{background:0}.search-pop .hot .title{padding:0 15px}.fn-left{float:left}.fn-right{float:right}.btn-deal,.btn-deal:link,.btn-deal:visited{width:78px;height:28px;line-height:28px;display:inline-block;background-color:#b1bdd6;border:1px solid #ccd3e4;color:#3b5998;float:right;text-align:center;margin:5px 0 0;font-size:14px}.nav{height:40px;background-color:#3b5998;overflow:hidden;font:12px/1.5 'Microsoft YaHei',arial,tahoma,sans-serif}.nav-cont{width:990px;height:40px;line-height:40px;margin:0 auto}.nav-cont .logo{width:188px;float:left}.nav-cont .logo a{font-size:22px;font-weight:bold}.nav-cont .logo a:link,.nav-cont .logo a:visited{color:#fff}.nav-main li{padding:0 2px 0 0;float:left}.nav-main li a{font-size:16px;padding:0 35px;position:relative;display:inline-block;zoom:1}.nav-main li a em{display:none}.nav-main li a:link,.nav-main li a:visited{color:#fff}.nav-main li a:hover,.nav-main li.current a{height:40px;background-color:#26427d}.nav-main li.current a{display:inline-block;zoom:1}.nav-main li a:hover{text-decoration:none;background-color:#57b;zoom:1}.nav-main li.current a em{width:15px;height:6px;display:inline-block;background-position:0 -106px;position:absolute;bottom:0;left:44%;overflow:hidden}.btn-deal,.btn-deal:link,.btn-deal:visited{width:78px;height:28px;line-height:28px;display:inline-block;background-color:#b1bdd6;border:1px solid #ccd3e4;color:#3b5998;float:right;text-align:center;margin:5px 0 0;font-size:14px}</style>
+    <link href="/css/CarDetail_V2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--迷你top-->
+    
+
+<div id="personalmini" class="minitop">
+    <div class="mini-main">
+        <div class="mini-left">
+            <ul>
+                <li><a target="_blank" href="http://www.autohome.com.cn#pvareaid=100989">&lt;&lt; 汽车之家首页</a> </li>
+                <li><span>|</span></li>
+                <li><a id="buycar" target="_blank" href="http://www.che168.com/china/list/#pvareaid=100992">我要买车</a></li>
+                <li><span>|</span></li>
+                <li><a target="_blank" id="aSaleCar" href="http://i.che168.com/car/add/#pvareaid=100995">我要卖车</a></li>
+                <li><span>|</span></li>
+                <li><a target="_blank" href="http://www.che168.com/pinggu/#pvareaid=100998">估价</a></li>
+                <li><span>|</span></li>
+                <li><a id="needcar" target="_blank" href="http://www.che168.com/china/BuyList------p.html#pvareaid=101001">求购</a></li>
+            </ul>
+        </div>
+        <div class="mini-right">
+            <ul class="frs">
+                <li class="moreli">
+                    <div class="moreli-title">
+                        <a target="_blank" href="http://app.autohome.com.cn/apps/4.html#pvareaid=101019"><span>移动App</span></a>
+                    </div>
+                </li>
+                <li class="vl"></li>
+            </ul>
+            <ul class="frs">
+                <li class="moreli">
+                    <div id="qrcode" class="moreli-title">
+                        <a href="javascript:;"><i class="icon16 icon16-phone"></i><span>触屏版</span><i class="icon10 icon10-down1"></i></a>
+                    </div>
+                    <!--更多切换层开始-->
+                    <div id="qrcodephone" class="topchadiv topchadiv-dw01" style="display: none;">
+                        <div class="topchadiv-top">
+                            <div class="topchadiv-top-con"></div>
+                        </div>
+                        <div class="topchadiv-box topchadiv-box-w">
+                            <div class="topchadiv-con">
+                                <p class="mt5">手机看更方便</p>
+                                <p>
+                                    
+                                    <img width="100" height="100" src="http://www.autoimg.cn/2scimg/web/website/20150415/code_other.png">
+                                    
+                                </p>
+                                <p>扫一扫找车源</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--更多切换层结束-->
+                </li>
+                <li class="vl"></li>
+            </ul>
+            <ul class="frs">
+                <li>
+                    <div class="moreli-title">
+                        <a target="_blank" href="http://www.che168.com/FeedBack.aspx#pvareaid=101017"><span>意见反馈</span></a>
+                    </div>
+                </li>
+                <li class="vl"></li>
+            </ul>
+            <ul class="frs" id="usernote">
+                <li>
+                    <div id="usertip" style="display: none;" class="moreli-title"><a target="_blank" href="http://i.che168.com/notice/"><span id="spanNotice">系统通知</span><i id="icon" style="display: none;" class="icon10 icon10-down1"></i></a></div>
+                    <div id="usertip_msg" style="display: none;" class="topchadiv topchadiv-dw03">
+                        <div class="topchadiv-top">
+                            <div class="topchadiv-top-con"></div>
+                        </div>
+                        <div class="topchadiv-box topchadiv-box-w">
+                            <div class="topchadiv-con" id="divTipContent">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="vl"></li>
+            </ul>
+            <ul class="frs frs-login" id="userinfo" style="display: none">
+                <li>
+                    <div class="moreli-title">您好！&nbsp;<a class="reda" id="usename" target="_self" href="http://i.che168.com/car/manager/"></a>&nbsp;<a id="aLogout" onclick="personalLoginOff()" href="javascript:void(0);">退出</a></div>
+                </li>
+            </ul>
+            <ul class="frs frs-login" id="nologin1">
+                <li class="frs-login">
+                    <div class="moreli-title">
+                        <span>商家：<a id="dealerLogin" href="http://dealer.che168.com/login.html#pvareaid=101013" target="_blank">登录</a><a href="http://dealer.che168.com/register.html#pvareaid=101016" target="_blank">申请免费发车</a></span>
+
+                    </div>
+                </li>
+                <li class="vl"></li>
+            </ul>
+            <ul class="frs frs-login" id="nologin">
+                <li id="auto-header-login" class="frs-login">
+                    <div class="moreli_title">
+                        个人：<a id="publichCar" href="http://www.che168.com/sell/2.html#pvareaid=101004" target="_blank">发布车源</a>
+                        <a href="http://i.che168.com/freecar/#pvareaid=101007" target="_blank">管理车源</a>
+                        <a href="http://account.che168.com/login?backurl=http://i.che168.com/car/manager/#pvareaid=101010" target="_blank">收藏求购</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="dealermini" class="minitop" style="display: none;">
+    <div class="mini-main">
+        <div id="login" class="con_mini">
+            <div class="mini-left">
+                你好，<span style="color: #F56B20" id="dealername"></span>！ 
+                <span>
+                    <a href="javascript:;" onclick="dealerLoginOff()">退出</a> | 
+                    <a target="_blank" href="http://dealer.che168.com/index.html#pvareaid=100754">进入管理后台</a>
+                </span>
+            </div>
+            <div class="mini-right">
+                <ul class="frs">
+                    <li class="moreli">
+                        <div class="moreli-title">
+                            <a target="_blank" href="http://app.autohome.com.cn/apps/4.html#pvareaid=101019"><span>移动App</span></a>
+                        </div>
+                    </li>
+                    <li class="vl"></li>
+                </ul>
+                <ul class="frs">
+                    <li class="moreli">
+                        <div id="qrcode2" class="moreli-title">
+                            <a href="javascript:;"><i class="icon16 icon16-phone"></i><span>触屏版</span><i class="icon10 icon10-down1"></i></a>
+                        </div>
+                        <!--更多切换层开始-->
+                        <div id="qrcodephone2" class="topchadiv topchadiv-dw01" style="display: none;">
+                            <div class="topchadiv-top">
+                                <div class="topchadiv-top-con"></div>
+                            </div>
+                            <div class="topchadiv-box topchadiv-box-w">
+                                <div class="topchadiv-con">
+                                    <p class="mt5">手机看更方便</p>
+                                    <p>
+                                        <img width="100" height="100" src="http://www.autoimg.cn/2scimg/web/website/20140506/code.png">
+                                    </p>
+                                    <p>扫一扫找车源</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--更多切换层结束-->
+                    </li>
+                    <li class="vl"></li>
+                </ul>
+                <ul class="frs">
+                    <li>
+                        <div class="moreli-title">
+                            <a target="_blank" href="http://www.che168.com/FeedBack.aspx#pvareaid=101017"><span>意见反馈</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var C = {
+        $: function (id) {
+            return typeof (id) == 'string' ? document.getElementById(id) : null;
+        },
+        ready: (function () {
+            var isReady = false,
+                funs = [];
+            function handle(e) {
+                if (isReady) {
+                    return;
+                }
+                if (e.type === 'readystatechange' && (document.readyState !== 'interactive' && document.readyState !== 'complete')) {
+                    return;
+                }
+                for (var i = 0; i < funs.length; i++) {
+                    funs[i].call(document);
+                }
+                isReady = true;
+                funs = null;
+            }
+            if (document.addEventListener) {
+                document.addEventListener('DOMContentLoaded', handle, false);
+                document.addEventListener('readystatechange', handle, false);
+                document.addEventListener('load', handle, false);
+            }
+            else if (document.attachEvent) {
+                document.attachEvent('onreadystatechange', handle);
+                document.attachEvent('onload', handle);
+            }
+            return function ready(callback) {
+                if (isReady) {
+                    callback.call(document);
+                }
+                else {
+                    funs.push(callback);
+                }
+            };
+        }()),
+        each: function (obj, func) {
+            for (var key in obj) {
+                if (obj.hasOwnProperty(key)) func(key, obj[key]);
+            }
+        },
+        getCookie: function (name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+            } return null;
+        },
+        setCookie: function (name, value, expires, path, domain) {
+            if (!expires) expires = -1;
+            if (!path) path = "/";
+            var d = "" + name + "=" + value;
+            var e;
+            if (expires < 0) {
+                e = "";
+            }
+            else if (expires == 0) {
+                var f = new Date(1970, 1, 1);
+                e = ";expires=" + f.toUTCString();
+            }
+            else {
+                var now = new Date();
+                var f = new Date(now.getTime() + expires * 1000);
+                e = ";expires=" + f.toUTCString();
+            }
+            var dm;
+            if (!domain) {
+                dm = "";
+            }
+            else {
+                dm = ";domain=" + domain;
+            }
+            document.cookie = name + "=" + value + ";path=" + path + e + dm;
+        },
+        loadJS: function (url, fn) {
+            var ss = document.getElementsByName('script'),
+                loaded = false;
+            for (var i = 0, len = ss.length; i < len; i++) {
+                if (ss[i].src && ss[i].getAttribute('src') == url) {
+                    loaded = true;
+                    break;
+                }
+            }
+            if (loaded) {
+                if (fn && typeof fn != 'undefined' && fn instanceof Function) fn();
+                return false;
+            }
+            var s = document.createElement('script'),
+                b = false;
+            s.setAttribute('type', 'text/javascript');
+            s.setAttribute('src', url);
+            s.onload = s.onreadystatechange = function () {
+                if (!b && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+                    b = true;
+                    if (fn && typeof fn != 'undefined' && fn instanceof Function) {
+                        fn();
+                    }
+                }
+            };
+            document.getElementsByTagName('head')[0].appendChild(s);
+        },
+        bind: function (objId, eventType, callBack) {
+            var obj = document.getElementById(objId);
+            if (obj.addEventListener) {
+                obj.addEventListener(eventType, callBack, false);
+            }
+            else if (window.attachEvent) {
+                obj.attachEvent('on' + eventType, callBack);
+            }
+            else {
+                obj['on' + eventType] = callBack;
+            }
+        },
+        moveBind: function (objId, eventType, callBack) {
+            var obj = C.$(objId);
+            if (obj.removeEventListener) {
+                obj.removeEventListener(eventType, callBack, false);
+            }
+            else if (window.detachEvent) {
+                obj.detachEvent('on' + eventType, callBack);
+            }
+            else {
+                obj['on' + eventType] = null;
+            }
+        }
+    };
+    C.ajax = function (args) {
+        var self = this;
+        this.options = {
+            type: 'GET',
+            async: true,
+            contentType: 'application/x-www-form-urlencoded',
+            url: 'about:blank',
+            data: null,
+            success: {},
+            error: {}
+        };
+        this.getXmlHttp = function () {
+            var xmlHttp;
+            try {
+                xmlhttp = new XMLHttpRequest();
+            }
+            catch (e) {
+                try {
+                    xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+                }
+                catch (e) {
+                    xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+            }
+            if (!xmlhttp) {
+                alert('您的浏览器不支持AJAX');
+                return false;
+            }
+            return xmlhttp;
+        };
+        this.send = function () {
+            C.each(self.options, function (key, val) {
+                self.options[key] = (args[key] == null) ? val : args[key];
+            });
+
+            var xmlHttp = new self.getXmlHttp();
+            if (self.options.type.toUpperCase() == 'GET') {
+                xmlHttp.open(self.options.type, self.options.url + (self.options.data == null ? "" : ((/[?]$/.test(self.options.url) ? '&' : '?') + self.options.data)), self.options.async);
+            }
+            else {
+                xmlHttp.open(self.options.type, self.options.url, self.options.async);
+                xmlHttp.setRequestHeader('Content-Length', self.options.data.length);
+            }
+            xmlHttp.setRequestHeader('Content-Type', self.options.contentType);
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4) {
+                    if (xmlHttp.status == 200 || xmlHttp.status == 0) {
+                        if (typeof self.options.success == 'function') self.options.success(xmlHttp.responseText);
+                        xmlHttp = null;
+                    }
+                    else {
+                        if (typeof self.options.error == 'function') self.options.error('Server Status: ' + xmlHttp.status);
+                    }
+                }
+            };
+
+            xmlHttp.send(self.options.type.toUpperCase() == 'POST' ? self.options.data.toString() : null);
+        };
+        this.send();
+    };
+    Array.prototype.indexOf = function (item) {
+        for (var i = 0; i < this.length; i++) {
+            if (this[i] == item) return i;
+        }
+        return -1;
+    };
+    /*获取用户提示信息*/
+    function GetUserTip() {
+        C.loadJS('/Handler/index_v1/UserTip.ashx?cd=sltuser&callback=UserTipCallBack', function () { });
+    };
+    /*用户提示信息返回处理*/
+    function UserTipCallBack(callData) {
+        if (callData.error == 1) {
+            if (callData.message.allmessage > 0) {
+                C.$('spanNotice').innerHTML = '系统通知（<span class="reda">' + callData.message.allmessage + '</span> ）';
+                var content = [];
+                if (callData.message.waitpayordercount > 0) {
+                    content.push('<a target="_blank" onclick="recordOrderTipClick();" href="http://i.che168.com/autonomous/orderlist/">您有<span id="carstatecount" class="reda">');
+                    content.push(callData.message.waitpayordercount);
+                    content.push('</span>个预约定单未支付</a>');
+                }
+                
+                if (callData.message.carstatecount > 0) {
+                    content.push('<a target="_blank" href="http://i.che168.com/notice/?t=1&amp;ref=status">网站卖的车有<span id="carstatecount" class="reda">');
+                    content.push(callData.message.carstatecount);
+                    content.push('</span>个新动态</a>');
+                }
+
+                if (callData.message.pricecount > 0) {
+                    content.push('<a target="_blank" href="http://i.che168.com/notice/?t=6&amp;ref=price">网站卖的车有<span id="pricecount" class="reda">');
+                    content.push(callData.message.pricecount);
+                    content.push('</span>个新报价</a>');
+                }
+
+                if (callData.message.qacount > 0) {
+                    content.push('<a target="_blank" href="http://i.che168.com/notice/?t=9&amp;ref=qa">我的问答有<span id="qacount" class="reda">');
+                    content.push(callData.message.qacount);
+                    content.push('</span>个新回复</a>');
+                }
+                if (callData.message.commentreturn > 0) {
+                    content.push('<a target="_blank" href="http://i.che168.com/notice/?t=11&amp;ref=qa">我的评论有<span id="qacount" class="reda">');
+                    content.push(callData.message.commentreturn);
+                    content.push('</span>个新回复</a>');
+                }
+                if (callData.message.commentdelete > 0) {
+                    content.push('<a target="_blank" href="http://i.che168.com/notice/?t=12&amp;ref=qa">删除评论有<span id="qacount" class="reda">');
+                    content.push(callData.message.commentdelete);
+                    content.push('</span>个新回复</a>');
+                }
+                C.$('divTipContent').innerHTML = content.join('');
+                C.$('usernote').style.display = '';
+                C.$('icon').style.display = '';
+                var sltArea = new TipHover('usertip', 'usertip_msg');
+                sltArea.init();
+            }
+        }
+    };
+
+    /*退出登录*/
+    function loginOff() {
+        C.$('nologin').style.display = '';
+        C.$('nologin1').style.display = '';
+        C.$('usertip').style.display = 'none';
+        C.$('userinfo').style.display = 'none';
+
+        if (C.$('rightNologin')) {
+            C.$('rightNologin').style.display = '';
+            C.$('loginUserName').style.display = 'none';
+            C.$('loginUserBlock').style.display = 'none';
+            C.$('personalLogin1').parentNode.style.display = '';
+            C.$('dealerlogin1').parentNode.style.display = '';
+        }
+    }
+
+    /*个人退出*/
+    function personalLoginOff() {
+        var logoutChe168Url = "http://account.che168.com/login/LogOut?Jsonbackvar=isLogOff&amp;date=" + new Date();
+        var logoutAutoUrl = "http://account.autohome.com.cn/login/LogOutJson?backvar=isAutoLogOff&amp;date=" + new Date();
+        C.loadJS(logoutChe168Url, function () {
+            C.loadJS(logoutAutoUrl, function () {
+                loginOff();
+                if (typeof CommentOut == "function") {
+                    CommentOut()
+                }
+                C.setCookie('clubUserShow', '', -1, '/', '.che168.com');
+                C.setCookie('pcpopclub', '', -1, '/', '.che168.com');
+               
+            });
+        });
+    };
+    /*商家退出*/
+    function dealerLoginOff() {
+        C.loadJS('http://www.che168.com//Handler/LoginOut.ashx?async=1', function () {
+            C.$('personalmini').style.display = '';
+            C.$('dealermini').style.display = 'none';
+            loginOff();
+            if (typeof CommentOut == "function") {
+                CommentOut()
+            }
+            C.setCookie('2scDealerInfo', '', -1, '/', '.che168.com');
+            C.setCookie('2scDealerId', '', -1, '/', '.che168.com');
+        });
+    };
+
+    /*判断登录状态 loginType: 0 未登录，1 个人用户，2 商家用户登录*/
+    var che168User = { loginType: 0, memberId: 0, dealerId: 0, userName: '' };
+    function UserInfoReader() {
+        var dealerId = C.getCookie('2scDealerId');
+        if (dealerId && dealerId > 0) {
+            che168User.dealerId = dealerId;
+            che168User.userName = C.getCookie('2scDealerName');
+            che168User.loginType = 2;
+        } else {
+            var clubusershow = C.getCookie('clubUserShow');
+
+            if (clubusershow && clubusershow.length > 10) {
+                var usersplit = clubusershow.split('|');
+                if (usersplit.length < 8) { return; }
+                che168User.memberId = usersplit[0];
+                che168User.userName = usersplit[3];
+                che168User.loginType = 1;
+            } else {
+                che168User.loginType = 0;
+            }
+        }
+
+        if (che168User.loginType == 1) {
+            C.$('dealermini').style.display = 'none';
+            C.$('personalmini').style.display = '';
+            C.$('usertip').style.display = '';
+            C.$('usename').innerHTML = che168User.userName;
+            C.$('nologin').style.display = 'none';
+            C.$('nologin1').style.display = 'none';
+            C.$('userinfo').style.display = '';
+            GetUserTip();
+        }
+        else if (che168User.loginType == 2) {
+            C.$('dealermini').style.display = '';
+            C.$('personalmini').style.display = 'none';
+            //C.$('dealershop').href = '/dealer/' + che168User.dealerId + '.html';
+            C.$('dealername').innerHTML = che168User.userName;
+        }
+
+        C.$('dealerLogin').href += '?backurl=' + location.href;
+        //C.$('personlogin').href += '?backurl=' + location.href;
+        //C.$('personRegister').href += '?backurl=' + location.href;
+    };
+    UserInfoReader();
+     
+    //是否包括寄卖、拍卖地区
+  /*  var loadBlockNew = function (curArea) {
+        var consign = [110000];
+        var auction = [310000, 110000, 440100, 440300, 320500, 320100, 330100, 330200, 330300, 510100, 441900, 500000, 120000];
+        var dd_auction = C.$('dd_auction'), dd_consign = C.$('dd_consign');
+        if (dd_auction && auction.indexOf(curArea) > -1) {
+            //return true;
+            dd_auction.style.display = '';
+        } else if (dd_auction) {
+            dd_auction.style.display = 'none';
+        }
+        if (dd_consign && consign.indexOf(curArea) > -1) {
+            //return true;
+            dd_consign.style.display = '';
+        } else if (dd_consign) {
+            dd_consign.style.display = 'none';
+        }
+    };
+    */
+   
+    var SetSaleCarLink = function (tagId) {
+        var curArea = C.getCookie('userarea');
+        if (curArea == 0) curArea = C.getCookie('area');
+        curArea = parseInt(curArea / 100) * 100;
+        /* 添加置换信息 2015年2月27日
+        var saleCarLink = "http://i.che168.com/car/add/#pvareaid=100492";
+         北京地区则跳转到卖车渠道选择页
+        if (loadBlock(curArea)) {
+            saleCarLink = "http://www.che168.com/sell/1.html#pvareaid=100492";
+        }*/
+        var saleCarLink = '/sell/1.html#pvareaid=100492';
+        if (C.$(tagId)) {
+            C.$(tagId).href = saleCarLink;
+        }
+     //   loadBlockNew(curArea);
+     
+    };
+    //setTimeout(function () {
+    //    SetSaleCarLink('aSaleCar');
+    //    SetSaleCarLink('publichCar');
+    //    SetSaleCarLink('sltPubilcCar');
+    //}, 200);
+
+    /*鼠标划过事件 显示和隐藏层事件*/
+    var TipHover = function (tgerDiv, showDiv, tgerDivClass, showDivClass, timerSeconds) {
+        var curTgerDivClass = C.$(tgerDiv).className;
+        var curshowDivClas = C.$(showDiv).className;
+        this.init = function () {
+            C.bind(tgerDiv, 'mousemove', tipMove);
+            C.bind(showDiv, 'mousemove', tip_msgMove);
+            if (typeof C.$(tgerDiv).onmouseleave != 'undefined') {
+                C.bind(tgerDiv, 'mouseleave', tipOut);
+                C.bind(showDiv, 'mouseleave', tip_msgOut);
+            }
+            else {
+                C.bind(tgerDiv, 'mouseout', tipOut);
+                C.bind(showDiv, 'mouseout', tip_msgOut);
+            }
+        };
+        /*鼠标划过移出 用户信息提示*/
+        var isuserMove = true;
+        var showtimer = null;
+        var tipMove = function () {
+            if (showtimer != null) return;
+            showtimer = setTimeout(function () {
+                if (C.$(showDiv).style.display == 'none') {
+                    C.$(showDiv).style.display = 'block';
+                    if (typeof tgerDivClass != 'undefined' && tgerDivClass.length > 0) C.$(tgerDiv).className = tgerDivClass;
+                    if (typeof showDivClass != 'undefined' && showDivClass.length > 0) C.$(showDiv).className = showDivClass;
+                    showtimer = null;
+                }
+            }, 150);
+            if (timer != null) { clearTimeout(timer); timer = null; }
+        };
+        var timer = null;
+        var tipOut = function () {
+            if (C.$(showDiv).style.display == 'none') { clearTimeout(showtimer); showtimer = null; return; }
+            if (timer != null) { clearTimeout(timer); }
+            timer = setTimeout(function () {
+                if (isuserMove) {
+                    C.$(showDiv).style.display = 'none';
+                    C.$(tgerDiv).className = curTgerDivClass;
+                    C.$(showDiv).className = curshowDivClas;
+                    clearTimeout(timer);
+                    timer = null;
+                    clearTimeout(showtimer);
+                    showtimer = null;
+                }
+            }, 100);
+        };
+        var tip_msgMove = function () {
+            isuserMove = false;
+        };
+        var tip_msgOut = function () {
+            isuserMove = true;
+            tipOut();
+        };
+    };
+
+    // 商家登录
+    if (che168User.loginType === 2) {
+        var qrcodeTip = new TipHover('qrcode2', 'qrcodephone2', 'moreli-title moreli-active');
+        qrcodeTip.init();
+    } else {
+        var qrcodeTip = new TipHover('qrcode', 'qrcodephone', 'moreli-title moreli-active');
+        qrcodeTip.init();
+    }
+    
+    // 记录订单提醒气泡点击数
+    function recordOrderTipClick() {
+        C.loadJS('http://collection.pv.che168.com/tiantianhaoche/GAHandler.ashx?operateid=1005', function () {
+        });        
+    }
+</script>
+
+    <!--最终页头部-->
+    <style type="text/css">
+    /*背景图*/
+    .txt_sous,.btn_sous{ background:url(http://www.autoimg.cn/che168_2sc/images/201207/header_bgs.png) no-repeat;}
+    /*搜索*/
+    .txt_sou{ width:380px; height:34px; line-height:34px; padding-left:30px; border:1px solid #d8d8d8; border-right:0; color:#6a6a6a; float:left;}
+    .btn_sou{ width:133px; height:36px; display:inline-block; background-color:#e85f0f; float:left; outline:none;}
+    .btn_sou:link,.btn_sou:visited{ background-position:0 -78px;}
+    .btn_sou:active{ background-position:-136px -78px;}
+
+    .slt_smal{ width:204px; line-height:22px;font-size:14px;border:solid 1px #CBDCEA;background-color:#FFFFFF;position:absolute;z-index:100; left:0; top:27px;}
+    .slt_smal ul{line-height:22px;}
+    .slt_smal ul li{height:22px;line-height:22px;}
+    .slt_smal ul li a{ width:194px; display:block;padding:0 5px;}
+    .slt_smal ul li a:link,.slt_smal ul li a:visited{ color:#01439a; text-decoration:none;}
+    .slt_smal ul li a:hover{ color:#f36d1d; text-decoration:none; background-color:#e7f0f9;}
+    /*最终页头部*/
+    .small_header{ width:960px; height:33px; margin:0 auto; border-bottom:2px solid #f56c1c;}
+    .samll_logo{ width:105px; height:23px; padding-top:5px; float:left;}
+    .sma_search{ float:right; padding-top:7px; position:relative;z-index:10;}
+    .txt_sous{ width:175px; height:19px; line-height:21px; padding-left:30px; border:1px solid #d8d8d8; border-right:0; color:#6a6a6a; float:left; background-position:0 -1px;}
+    .btn_sous{ width:80px; height:21px; display:inline-block; background-color:#e85f0f; float:left; outline:none; background-position:-272px 0;}
+</style>
+<div class="small_header">
+    
+        <div class="samll_logo">
+            <a href="/">
+                <img src="http://www.autoimg.cn/che168_2sc/images/201207/logo_small.png" width="105" height="23" alt="二手车之家logo" />
+            </a>
+        </div>
+</div>
+<script src="/js/MiniHeaderNew_V1.js?2013041801" type="text/javascript" language="javascript"></script>
+
+    <!--内容-->
+    <div class="con168">
+        <div class="path">
+            <span class="fl">当前位置：<a href="/">首页</a> &gt; 报错页面</span> <span class="fr">找车：<a
+                href="/2sc/whole/list-0-0-1-0-1-1-0-0-0-0-0-0-0.html">按品牌找车</a> <a href="/2sc/whole/list-0-0-1-1-1-1-0-0-0-0-0-0-0.html">
+                    按拼音找车</a></span>
+        </div>
+        <div class="wrong_page">
+            <span class="ic_wrong"></span>
+            <p>
+                非常抱歉，您访问的车辆信息已失效！</p>
+            <dl>
+                <dt>您可以：<a href="/chongqing/list/">重新找二手车</a></dt>
+                <dd>
+                    <a href="http://i.che168.com/buy/add/">发布求购信息</a></dd>
+                <dd>
+                    <a href="/SelectRelease.aspx">发布卖车信息</a></dd>
+            </dl>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="rarea othcar" id="divBrowseOtherCar">
+        <h3>
+            浏览了该车的用户还看了：</h3>
+        <ul>
+        </ul>
+    </div>
+    <a class="turn_top" href="#">返回顶部</a>
+    <script type="text/javascript">
+        var Pid = "500000", SeriesId = "130", InfoId = "5188097";
+        if (Pid > 0 && SeriesId > -1 && InfoId > 0) {
+            GetBrowseOtherCar();
+        } else {
+        document.getElementById("divBrowseOtherCar").style.display = "none";
+        }
+        /* 看过些车的人还看了 */
+        function GetBrowseOtherCar() {
+            var li = document.getElementById("divBrowseOtherCar").getElementsByTagName("li");
+            if (li == null || li.length == 0) {
+                var url = "/handler/CarDetail/BrowseOtherCarInfo.ashx";
+                C.ajax({ url: url, data: 'req=' + Math.random() + '&pid=' + Pid + '&seriesid=' + SeriesId + '&num=13' + '&infoid=' + InfoId, success: function (data) {
+                    if (data != "") {
+                        var ul = document.getElementById("divBrowseOtherCar").getElementsByTagName("ul");
+                        ul[0].innerHTML = data;
+                        document.getElementById("divBrowseOtherCar").style.display = "";
+                    }
+                    else {
+                        document.getElementById("divBrowseOtherCar").style.display = "none";
+                    }
+                    isBrowseOtherCar = false;
+                }
+                });
+            }
+        };
+    </script>
+    <style>
+.station{ width:948px; line-height:22px; margin:10px auto 0 auto; padding-left:10px; overflow:hidden; border-left:1px solid #d8d8d8; border-right:1px solid #d8d8d8; background-position:0 -435px; background-repeat:repeat-x;}
+.station dl{ width:215px; float:left; padding:15px 10px; color:#6a6a6a;}
+.station dl dt{ height:22px; border-bottom:2px solid #efefef; font-size:14px; font-weight:bold; margin-bottom:10px;}
+.station dl dd{ height:22px; padding-left:15px; background-position:-711px -398px;}
+.iphone_ic,.android_ic{ width:14px; height:16px; display:block; float:left; margin-right:4px; position:relative; left:-1px; top:2px; background-position:-25px -354px;}
+.android_ic{ background-position:-25px -387px;}
+.station a:link,.station a:visited,.model_outside2 ul li a:link,.model_outside2 ul li a:visited,.pub_nt a:link,.pub_nt a:visited{ color:#6a6a6a; text-decoration:none;}
+.station a:hover,.model_outside2 ul li a:hover,.pub_nt a:hover{ color:#6a6a6a; text-decoration:underline;}
+ </style>
+    <div class="station">
+        <dl>
+            <dt>关于我们</dt>
+            <dd>
+                <a href="/Nindex.html" target="_blank">关于二手车之家</a></dd>
+            <dd>
+                <a href="/Nlianxi.html" target="_blank">联系我们</a></dd>
+            <dd>
+              <a href="http://weibo.com/che168che" target="_blank">关注我们</a>
+              <a href="http://weibo.com/che168che" target="_blank" style="position:absolute; margin:3px 0 0 5px; *margin:-2px 0 0 0;"><img src="http://www.autoimg.cn/che168_2sc/images/201207/weibo_ic.jpg" alt="欢迎关注二手车之家微博" loaded="loaded" /></a>
+            </dd>
+            <dd>
+                <a href="/2sc/whole/list-0-0-1-0-1-1-0-0-0-0-0-0-0.html" target="_blank">二手车大全</a></dd>
+        </dl>
+        <dl>
+            <dt>手机版</dt>
+            <dd>
+                <span class="iphone_ic"></span><a href="http://www.autohome.com.cn/apps/4.html" target="_blank">iPhone版</a></dd>
+            <dd>
+                <span class="android_ic"></span><a href="http://www.autohome.com.cn/apps/5.html" target="_blank">Android版</a></dd>
+        </dl>
+        <dl>
+            <dt>商家服务</dt>
+            <dd>
+                <a href="http://dealer.che168.com/DealerApply.aspx" target="_blank">申请商家</a></dd>
+            <dd>
+                <a href="http://dealer.che168.com/Manager/SalesCar.aspx" target="_blank">
+                    发布车源</a></dd>
+            <dd>
+                <a href="http://dealer.che168.com/Manager/DealerCarList.aspx" target="_blank">车源管理</a></dd>
+        </dl>
+        <dl>
+            <dt>答疑解惑</dt>
+            <dd>
+                <a href="/FeedBack.aspx" target="_blank">建议或投诉</a></dd>
+            <dd>
+                <a href="/FeedBack.aspx" target="_blank">问二手车相关问题</a></dd>
+        </dl>
+    </div><div class="clear"></div>
+<div class="model_outside2">
+<ul>
+   <li><a target="_blank"  title="全国二手车" href="/china/">全国二手车</a></li>
+   <li><a target="_blank"  title="北京二手车" href="/beijing/">北京二手车</a></li>
+   <li><a target="_blank"  title="上海二手车" href="/shanghai/">上海二手车</a></li>
+   <li><a target="_blank"  title="广东二手车" href="/guangdong/">广东二手车</a></li>
+   <li><a target="_blank"  title="江苏二手车" href="/jiangsu/">江苏二手车</a></li>
+   <li><a target="_blank"  title="浙江二手车" href="/zhejiang/">浙江二手车</a></li>
+   <li><a target="_blank" class="noborder" title="四川二手车" href="/sichuan/">四川二手车</a></li>
+   <li><a target="_blank"  title="河南二手车" href="/henan/">河南二手车</a></li>
+   <li><a target="_blank"  title="辽宁二手车" href="/liaoning/">辽宁二手车</a></li>
+   <li><a target="_blank"  title="山东二手车" href="/shandong/">山东二手车</a></li>
+   <li><a target="_blank"  title="河北二手车" href="/hebei/">河北二手车</a></li>
+   <li><a target="_blank"  title="安徽二手车" href="/anhui/">安徽二手车</a></li>
+   <li><a target="_blank"  title="重庆二手车" href="/chongqing/">重庆二手车</a></li>
+   <li><a target="_blank" class="noborder" title="福建二手车" href="/fujian/">福建二手车</a></li>
+   <li><a target="_blank"  title="甘肃二手车" href="/gansu/list/">甘肃二手车</a></li>
+   <li><a target="_blank"  title="广西二手车" href="/guangxi/">广西二手车</a></li>
+   <li><a target="_blank"  title="贵州二手车" href="/guizhou/list/">贵州二手车</a></li>
+   <li><a target="_blank"  title="海南二手车" href="/hainan/list/">海南二手车</a></li>
+   <li><a target="_blank"  title="黑龙江二手车" href="/heilongjiang/">黑龙江二手车</a></li>
+   <li><a target="_blank"  title="湖北二手车" href="/hubei/">湖北二手车</a></li>
+   <li><a target="_blank" class="noborder" title="湖南二手车" href="/hunan/">湖南二手车</a></li>
+   <li><a target="_blank"  title="吉林二手车" href="/jilin/">吉林二手车</a></li>
+   <li><a target="_blank"  title="江苏二手车" href="/jiangsu/">江苏二手车</a></li>
+   <li><a target="_blank"  title="江西二手车" href="/jiangxi/">江西二手车</a></li>
+   <li><a target="_blank"  title="内蒙古二手车" href="/namenggu/">内蒙古二手车</a></li>
+   <li><a target="_blank"  title="宁夏二手车" href="/ningxia/list/">宁夏二手车</a></li>
+   <li><a target="_blank"  title="青海二手车" href="/qinghai/list/">青海二手车</a></li>
+   <li><a target="_blank" class="noborder" title="山东二手车" href="/shandong/">山东二手车</a></li>
+   <li><a target="_blank"  title="山西二手车" href="/shanxi/list/">山西二手车</a></li>
+   <li><a target="_blank"  title="陕西二手车" href="/shan_xi/">陕西二手车</a></li>
+   <li><a target="_blank"  title="天津二手车" href="/tianjin/">天津二手车</a></li>
+   <li><a target="_blank"  title="云南二手车" href="/yunnan/list/">云南二手车</a></li>
+</ul>
+<div class="clear"></div>
+</div>
+    <div id="div_FriendLink" class="public_footer">
+        <div class="pub_nt"><div class="pub_ntf">推荐网站：</div><div style="word-break:break-all;word-wrap: break-word; " class="pub_ntr"><a target="_blank" href="http://www.it168.com/">IT168</a> | <a target="_blank" href="http://www.pcpop.com/">泡泡网</a> | <a target="_blank" href="http://www.chinaunix.net/">CHINAUNIX</a> | <a target="_blank" href="http://www.autohome.com.cn/">汽车之家</a> | <a target="_blank" href="http://www.qudao168.com/">渠道168</a> | <a target="_blank" href="http://www.che168.com/">二手车之家</a> | <a target="_blank" href="http://www.jimi168.com/">安卓之家</a></div><div class="clear"></div></div><div class="pub_nt"><div class="pub_ntf">友情链接：</div><div style="word-break:break-all;word-wrap: break-word; " class="pub_ntr"><a target="_blank" href="http://car.autohome.com.cn/">汽车报价</a> | <a target="_blank" href="http://www.autohome.com.cn/">汽车</a> | <a target="_blank" href="http://www.autohome.com.cn/chezhan/guangzhou/">广州车展</a> | <a target="_blank" href="http://www.autohome.com.cn/chezhan/beijing/">北京车展</a> | <a target="_blank" href="http://product.auto.163.com/">汽车品牌</a> | <a target="_blank" href="http://www.feelcars.com/">汽车探索网</a> | <a target="_blank" href="http://www.autofan.com.cn/">汽车之友</a> | <a target="_blank" href="http://auto.ynet.com/">北青网汽车</a> | <a target="_blank" href="http://auto.163.com/">网易汽车</a> | <a target="_blank" href="http://www.che168.com">二手车</a> | <a target="_blank" href="http://www.hx2car.com">华夏二手车网</a> | <a target="_blank" href="http://www.iautos.cn/">第一车网</a> | <a target="_blank" href="http://www.315che.com/">中国汽车消费网</a> | <a target="_blank" href="http://taoche.com">淘车网</a> | <a target="_blank" href="http://www.cn2che.com/">中国二手车城</a> | <a target="_blank" href="http://www.cn2che.com/">二手车</a> | <a target="_blank" href="http://www.autohome.com.cn/chezhan/chengdu/">成都车展</a> | <a target="_blank" href="http://www.autohome.com.cn/chezhan/falankefu/">法兰克福车展</a> | <a target="_blank" style="color: rgb(2, 87, 174);display:inline-block;" href="http://topic.pcpop.com/game2/link/index_5_2.html">申请链接</a></div><div class="clear"></div></div><div class="pub_nt"><div class="pub_ntf">特别鸣谢：</div><div style="word-break:break-all;word-wrap: break-word; " class="pub_ntr"><a target="_blank" href="http://www.hao123.com">hao123网址之家</a> | <a target="_blank" href="http://hao.360.cn/">360安全网址导航</a> | <a target="_blank" href="http://www.2345.com/">2345网址导航</a> | <a target="_blank" href="http://123.sogou.com/">搜狗网址导航</a> | <a target="_blank" href="http://www.duba.com">毒霸网址大全</a></div><div class="clear"></div></div>
+    </div>
+    <style type="text/css">#footer{width:990px;height:90px;margin:0px auto; padding-top:8px;text-align:center;color:#6a6a6a;}#footer p{padding-bottom:15px;}#footer p a:link,#footer p a:visited {color: #01439A;text-decoration: none;}#footer p a:hover {color: #D60000;text-decoration: none;}.picrz{ position:absolute; right:0px; top:0px;}p.pic_p{ height:40px; line-height:40px; width:840px; padding:0 60px; position:relative; text-align:left;}</style>
+<div id="footer">
+  <p class="pic_p" style="padding:0 60px 8px 60px;">
+    <!--二手车之家 版权所有-->&nbsp;<a href="http://www.che168.com/Nindex.html" target="_blank" >公司介绍</a>&nbsp;|&nbsp;<a href="http://www.che168.com/Nlianxi.html" target="_blank" >联系我们</a>&nbsp;|&nbsp;<a href="http://www.che168.com/Navigation.html" target="_blank" >网站导航</a>&nbsp;<a style="color:#6a6a6a;" href="http://www.che168.com/license3.html" target="_blank" >【广播电视节目制作经营许可证：（京）字第1338号】</a>&nbsp;<a style="color:#6a6a6a;" href="http://www.che168.com/license4.html" target="_blank" >【乙测资字11005061】</a>
+    <span class="picrz">
+      <a href="https://search.szfw.org/cert/l/CX20111226001271001315" target="_blank">
+        <img src="http://www.autoimg.cn/che168_2sc/images/footer/Integrity.gif" alt=""/>
+      </a>
+    </span>
+  </p>
+  <p>
+    <a target="_blank" style="color:#6a6a6a;" href="http://www.miitbeian.gov.cn/">京ICP备11003899号-1</a>&nbsp;|&nbsp;北京市公安局海淀分局网监中心备案编号：1101082002&nbsp;|&nbsp;<a href="http://www.che168.com/license2.html" style="color:#6a6a6a;" target="_blank" >中国互联网协会会员单位</a>&nbsp;|&nbsp;<a href="http://www.che168.com/license1.html" style="color:#6a6a6a;" target="_blank" >电信与信息服务业务经营许可证：京ICP证110115号</a>
+  </p>
+</div>
+</body>
+</html>
