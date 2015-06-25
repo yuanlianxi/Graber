@@ -6,17 +6,29 @@
       <linkInfo>
         <links>
           <linkUrlPaged>
-            <url>http://www.che168.com/beijing/a0_0ms1dgscncgpilto8csp{0}ex/</url>
-            <saveFileName>beijing.txt</saveFileName>
+            <url>http://www.che168.com/hangzhou/a0_0ms1dgscncgpilto8csp{0}ex/</url>
+            <saveFileName>hangzhou.txt</saveFileName>
             <startPageIndex>1</startPageIndex>
             <pageCount>8</pageCount>
           </linkUrlPaged>
-          <!--<linkUrlPaged>
-            <url>http://www.che168.com/xian/a0_0ms1dgscncgpilto8csp{0}ex/</url>
-            <saveFileName>xian.txt</saveFileName>
+          <linkUrlPaged>
+            <url>http://www.che168.com/shanghai/a0_0ms1dgscncgpilto8csp{0}ex/</url>
+            <saveFileName>shanghai.txt</saveFileName>
             <startPageIndex>1</startPageIndex>
             <pageCount>3</pageCount>
-          </linkUrlPaged>-->
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/suzhou/a0_0ms1dgscncgpilto8csp{0}ex/</url>
+            <saveFileName>suzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/nanjing/a0_0ms1dgscncgpilto8csp{0}ex/</url>
+            <saveFileName>nanjing.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
         </links>
         <grabInfo>
           <prefix>http://www.che168.com</prefix>
@@ -34,13 +46,21 @@
     <linkInfo>
       <links>
         <linkFile>
-            <linkFilePath>beijing.txt</linkFilePath>
-            <saveFileName>beijingCarInfo.txt</saveFileName>
+            <linkFilePath>hangzhou.txt</linkFilePath>
+            <saveFileName>hangzhouCarInfo.txt</saveFileName>
           </linkFile>
-        <!--<linkFile>
-          <linkFilePath>xian.txt</linkFilePath>
-          <saveFileName>xiancarinfo.txt</saveFileName>
-        </linkFile>-->
+        <linkFile>
+          <linkFilePath>shanghai.txt</linkFilePath>
+          <saveFileName>shanghaicarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>suzhou.txt</linkFilePath>
+          <saveFileName>suzhouCarInfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>nanjing.txt</linkFilePath>
+          <saveFileName>nanjingcarinfo.txt</saveFileName>
+        </linkFile>
       </links>
       <grabInfo>
         <prefix></prefix>

@@ -6,3 +6,12 @@ c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.exe
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.pdb
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\grabsite.xml
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\obj\x86\Debug\Graber.exe
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\obj\x86\Debug\Graber.pdb
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\bin\Debug\grabsite.xml
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\bin\Debug\Graber.exe
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\bin\Debug\Graber.pdb
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\obj\x86\Debug\Graber.Form1.resources
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\obj\x86\Debug\Graber.Properties.Resources.resources
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\obj\x86\Debug\Graber.csproj.GenerateResource.Cache
+C:\Users\yuanlx\Documents\Visual Studio 2010\Projects\Graber\bin\Debug\grabsitecaihong.xml
