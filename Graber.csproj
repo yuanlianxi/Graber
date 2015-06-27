@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Graber.cs" />
     <Compile Include="GraberConfig.cs" />
+    <Compile Include="GraberWebClient.cs" />
     <Compile Include="GrabInfo.cs" />
     <Compile Include="GrabLinkInfo.cs" />
     <Compile Include="GrabSite.cs" />
