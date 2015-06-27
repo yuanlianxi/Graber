@@ -1,0 +1,63 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	Form1.Designer.cs
+	Form1.cs
+	Graber.cs
+	bin/Debug/Graber.exe
+	bin/Debug/Graber.pdb
+	bin/Debug/grabsite.xml
+	grabsite.xml
+	obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+	obj/x86/Debug/Graber.csproj.FileListAbsolute.txt
+	obj/x86/Debug/Graber.csproj.GenerateResource.Cache
+	obj/x86/Debug/Graber.exe
+	obj/x86/Debug/Graber.pdb
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	modified:   Form1.Designer.cs
+#	modified:   Form1.cs
+#	modified:   Graber.cs
+#	modified:   Graber.csproj
+#	new file:   Graber.sln
+#	new file:   Graber.suo
+#	new file:   GraberWebClient.cs
+#	new file:   bin/Debug/grabsite.xml
+#	new file:   bin/Debug/grabsitecaihong.xml
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/hangzhou.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/hangzhouCarInfo.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/hangzhoushorten.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/nanjing.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/nanjingcarinfo.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/shanghai.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/shanghaicarinfo.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/shanghaishorten.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/suzhou.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/suzhouCarInfo.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/suzhoushorten1.txt"
+#	new file:   "bin/Debug/\346\261\275\350\275\246\344\271\213\345\256\266/suzhou\347\237\255\350\277\236\346\216\245.txt"
+#	new file:   grabsite.xml
+#	new file:   grabsitecaihong.xml
+#	modified:   obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   obj/x86/Debug/Graber.csproj.FileListAbsolute.txt
+#
+# Untracked files:
+#	bin/Debug/Graber.vshost.exe.manifest
+#
+
