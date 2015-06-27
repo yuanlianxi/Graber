@@ -6,17 +6,30 @@
       <linkInfo>
         <links>
           <linkUrlPaged>
+<<<<<<< HEAD
             <url>http://www.che168.com/beijing/a0_0ms1dgscncgpilto8csp{0}ex/</url>
             <saveFileName>beijing.txt</saveFileName>
             <startPageIndex>1</startPageIndex>
             <pageCount>8</pageCount>
           </linkUrlPaged>
           <!--<linkUrlPaged>
+=======
+            <url>http://www.che168.com/zhengzhou/a0_0ms1dgscncgpilto8csp{0}ex/</url>
+            <saveFileName>zhengzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+>>>>>>> parent of c75af77... 20150627homework
             <url>http://www.che168.com/xian/a0_0ms1dgscncgpilto8csp{0}ex/</url>
             <saveFileName>xian.txt</saveFileName>
             <startPageIndex>1</startPageIndex>
             <pageCount>3</pageCount>
+<<<<<<< HEAD
           </linkUrlPaged>-->
+=======
+          </linkUrlPaged>
+>>>>>>> parent of c75af77... 20150627homework
         </links>
         <grabInfo>
           <prefix>http://www.che168.com</prefix>
@@ -34,6 +47,7 @@
     <linkInfo>
       <links>
         <linkFile>
+<<<<<<< HEAD
             <linkFilePath>beijing.txt</linkFilePath>
             <saveFileName>beijingCarInfo.txt</saveFileName>
           </linkFile>
@@ -41,13 +55,26 @@
           <linkFilePath>xian.txt</linkFilePath>
           <saveFileName>xiancarinfo.txt</saveFileName>
         </linkFile>-->
+=======
+            <linkFilePath>zhengzhou.txt</linkFilePath>
+            <saveFileName>zhengzhoucarinfo.txt</saveFileName>
+          </linkFile>
+        <linkFile>
+          <linkFilePath>xian.txt</linkFilePath>
+          <saveFileName>xiancarinfo.txt</saveFileName>
+        </linkFile>
+>>>>>>> parent of c75af77... 20150627homework
       </links>
       <grabInfo>
         <prefix></prefix>
         <regexs>
           <seperate xml:space="preserve">&#x0009;</seperate>
+<<<<<<< HEAD
           <regex><![CDATA[<h1[^>]+>([^<]+)]]></regex>
           <regex><![CDATA[<h2[^>]+>([^<]+)]]></regex>
+=======
+          <regex><![CDATA[<div class="tit-name clearfix">\s+<[^>]+>([^<]+)</h1>\s+</div>\s+<h2[^>]+>([^<]+)</h2>]]></regex>
+>>>>>>> parent of c75af77... 20150627homework
           <regex><![CDATA[<span class="data-left">\s+(\d+)[^\d]+(\d+)[^\s]+\s+<span[^<]+</span>\s+<span>([^.]+\.[\d]+)([^<]+)</span>]]></regex>
           <regex><![CDATA[<div class='part5' id='carOwnerInfo'>\s+<div><span class='font18'>([^<]+)</span>]]></regex>
           <regex><![CDATA[<a class='link999'\s+target="_blank"\s+href="/CarDetail/UcList_(\d+)]]></regex>

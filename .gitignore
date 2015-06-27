@@ -43,3 +43,16 @@ Temporary Items
 .apdisk
 Graber.suo
 Graber.suo
+bin/Debug/grabsite.xml
+bin/Debug/grabsite.xml
+*.pdb
+bin/Debug/Graber.exe
+Form1.cs
+Graber.cs
+grabsite.xml
+Graber.cs
+Form1.cs
+obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+obj/x86/Debug/Graber.exe
+bin/Debug/grabsite.xml
+bin/Debug/grabsite.xml
