@@ -15,5 +15,7 @@ namespace Graber
             _GrabInfo = new GrabInfo(); 
             
         }
+
+        public Encoding Encoding { get; set; }
     }
 }

@@ -5,4 +5,7 @@ c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.csproj.GenerateResource.Cache
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.exe
 c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.pdb
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\grabsite.xml
+C:\Users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.csprojResolveAssemblyReference.cache
+C:\Users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\huaxiasite.xml
+C:\Users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\grabsitexianzhengzhouhefei.xml
+C:\Users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\qichezhijiasite.xml

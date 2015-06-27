@@ -82,7 +82,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="grabsite.xml">
+    <Content Include="huaxiasite.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="qichezhijiasite.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="grabsitexianzhengzhouhefei.xml">
+      <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

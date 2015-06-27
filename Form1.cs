@@ -92,7 +92,14 @@ namespace Graber
         private void button5_Click(object sender, EventArgs e)
         {
             Graber graber = new Graber();
-            graber.LoadFromConfigFile("grabsite.xml");
+            graber.LoadFromConfigFile("qichezhijiasite.xml");
+            graber.Grab();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Graber graber = new Graber();
+            graber.LoadFromConfigFile("grabsitexianzhengzhouhefei.xml");
             graber.Grab();
         }
     }

@@ -31,11 +31,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -73,15 +73,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "二手车信息抓取";
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(301, 33);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "抓取链接设置";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(480, 33);
@@ -90,6 +81,15 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "抓取二手车信息设置";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(301, 33);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(144, 23);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "抓取链接设置";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -102,24 +102,25 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(21, 75);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(117, 23);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "彩虹同事抓取";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(21, 49);
+            this.button5.Location = new System.Drawing.Point(21, 24);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 0;
-            this.button5.Text = "抓取链接";
+            this.button5.Text = "彩虹抓取";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(209, 49);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "抓取内容";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

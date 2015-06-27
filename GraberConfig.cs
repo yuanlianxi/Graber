@@ -26,6 +26,9 @@ namespace Graber
                 GrabSite gs = new GrabSite();
                 XmlNode saveDirectNode = siteNode.SelectSingleNode("saveDirect");
                 gs.SaveDirect = saveDirectNode.InnerText ?? string.Empty;
+                XmlNode encodingNode = siteNode.SelectSingleNode("encoding");
+
+                gs.Encoding = Encoding.GetEncoding(encodingNode.InnerText ?? "ascii");
                 XmlNode linkNode = siteNode.SelectSingleNode("linkInfo");
                 InitLinkInfo(gs._GrabLinkInfo, linkNode);
                 XmlNode grabInfoNode = siteNode.SelectSingleNode("linkInfo/grabInfo");

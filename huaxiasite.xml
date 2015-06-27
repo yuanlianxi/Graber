@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grab>
+  <sites>
+    <site>
+      <saveDirect>华夏二手车</saveDirect>
+      <encoding>utf-8</encoding>
+      <linkInfo>
+        <links>
+          <linkUrlPaged>
+            <url>http://www.hx2car.com/car/search.htm?carFlag=personal&amp;more=l310100dzsejtyckbmg&amp;currPage={0}#now_search_result</url>
+            <saveFileName>shanghai.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.hx2car.com/car/search.htm?carFlag=personal&amp;more=l320100dzsejtyckbmg&amp;currPage={0}#now_search_result</url>
+            <saveFileName>nanjing.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.hx2car.com/car/search.htm?carFlag=personal&amp;more=l330100dzsejtyckbmg&amp;currPage={0}#now_search_result</url>
+            <saveFileName>hangzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.hx2car.com/car/search.htm?carFlag=personal&amp;more=l320500dzsejtyckbmg&amp;currPage={0}#now_search_result</url>
+            <saveFileName>suzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+        </links>
+        <grabInfo>
+          <prefix>http://www.hx2car.com</prefix>
+          <regexs>
+            <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<a class="wait_pic" target="_blank" href="([^"]+)]]></regex>
+            <regex></regex>
+          </regexs>
+        </grabInfo>
+      </linkInfo>
+
+    </site>
+    <site>
+    <saveDirect>华夏二手车</saveDirect>
+      <encoding>utf-8</encoding>
+    <linkInfo>
+      <links>
+        <linkFile>
+            <linkFilePath>hangzhou.txt</linkFilePath>
+            <saveFileName>hangzhoucarinfo.txt</saveFileName>
+          </linkFile>
+        <linkFile>
+          <linkFilePath>shanghai.txt</linkFilePath>
+          <saveFileName>shanghaicarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>suzhou.txt</linkFilePath>
+          <saveFileName>suzhoucarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>nanjing.txt</linkFilePath>
+          <saveFileName>nanjingcarinfo.txt</saveFileName>
+        </linkFile>
+      </links>
+      <grabInfo>
+        <prefix></prefix>
+        <regexs>
+          <seperate xml:space="preserve">&#x0009;</seperate>
+          <regex><![CDATA[<li class="context_it">\s+<p>\S+\s+\d+[^\d+]\d+\S+\s+(\S+)\s+([^<]+)]]></regex>
+          <regex><![CDATA[<li class="context_it">\s+<p>\S+\s+(\d+)[^\d+](\d+)]]></regex>
+          <regex><![CDATA[<li>里程：<span>([^万]+)([^<]+)]]></regex>
+          <regex><![CDATA[<strong>联系人：</strong>[^>]+>([^<]+)]]></regex>
+          <regex><![CDATA[<span class="context_car">[^\d]*(\d+)]]></regex>
+        </regexs>
+      </grabInfo>
+    </linkInfo>
+    </site>
+  </sites>
+</grab>

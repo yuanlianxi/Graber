@@ -28,27 +28,34 @@ namespace Graber
                 }
                 foreach (PagedLinkUrl plu in gs._GrabLinkInfo.PagedLinkUrls)
                 {
-                    Export(gs,plu);
+                    Export(gs, plu);
                 }
                 foreach (LinkFile lf in gs._GrabLinkInfo.LinkFiles)
                 {
-                    Export(gs,lf);
+                        Export(gs, lf);
                 }
+                
             }
         }
 
 
-        private void Export(GrabSite gs,LinkFile lf)
+        private void Export(GrabSite gs, LinkFile lf)
         {
             IEnumerable<string> urls = File.ReadLines(Path.Combine(gs.SaveDirect, lf.LinkFilePath));
 
             WebClient webClient = new WebClient();
+            
+            webClient.Encoding = gs.Encoding;
             string fileName = Path.Combine(gs.SaveDirect, lf.SaveFileName);
             foreach (string url in urls)
             {
-                string content = webClient.DownloadString(url);
-                string result = GetSingleRegexMatchResult(gs,content);
-                File.AppendAllLines(fileName,new string[]{result});
+                //new Action(() =>
+                //{
+                    
+                    string content = webClient.DownloadString(url);
+                    string result = GetSingleRegexMatchResult(gs, content);
+                    File.AppendAllLines(fileName, new string[] { result });
+                //}).BeginInvoke(o => { }, null);
             }
         }
 
@@ -56,13 +63,17 @@ namespace Graber
         {
             WebClient webClient = new WebClient();
 
+            webClient.Encoding = gs.Encoding;
             string fileName = Path.Combine(gs.SaveDirect, plu.SaveFileName);
             for (int i = 0; i < plu.PageCount; i++)
             {
-                string content = webClient.DownloadString(string.Format(plu.Url, plu.StartPageIndex + i));
-                IEnumerable<string> results = GetRegexMatchResults(gs,content);
-                File.AppendAllLines(fileName, results);
+                    
+                    string content = webClient.DownloadString(string.Format(plu.Url, plu.StartPageIndex + i));
+                    IEnumerable<string> results = GetRegexMatchResults(gs, content);
+                    File.AppendAllLines(fileName, results);
+                
             }
+
         }
         private IEnumerable<string> GetRegexMatchResults(GrabSite gs, string content)
         {
@@ -81,10 +92,13 @@ namespace Graber
             foreach (Regex reg in gs._GrabInfo.Regexs.Regexs)
             {
                 Match match = reg.Match(content);
-                for (int i = 1; i < match.Groups.Count; i++)
+                if (match.Groups.Count == 1)
                 {
-                    Group group = match.Groups[i];
-                    matchStrs.Add(group.Value);
+                    matchStrs.Add(string.Empty);
+                }
+                else
+                {
+                    matchStrs.Add(match.Groups[1].Value ?? string.Empty);
                 }
             }
             return gs._GrabInfo.Prefix + string.Join(gs._GrabInfo.Regexs.Seperate, matchStrs);
