@@ -1,8 +1,0 @@
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\Graber.exe
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\Graber.pdb
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.Form1.resources
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.Properties.Resources.resources
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.csproj.GenerateResource.Cache
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.exe
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\obj\x86\Debug\Graber.pdb
-c:\users\yuan\documents\visual studio 2010\Projects\Graber\Graber\bin\Debug\grabsite.xml
