@@ -32,7 +32,11 @@ namespace Graber
                 }
                 foreach (LinkFile lf in gs._GrabLinkInfo.LinkFiles)
                 {
+<<<<<<< HEAD
                         Export(gs, lf);
+=======
+                    Export(gs, lf);
+>>>>>>> origin/master
                 }
                 
             }
@@ -43,6 +47,7 @@ namespace Graber
         {
             IEnumerable<string> urls = File.ReadLines(Path.Combine(gs.SaveDirect, lf.LinkFilePath));
 
+<<<<<<< HEAD
             WebClient webClient = new WebClient();
             
             webClient.Encoding = gs.Encoding;
@@ -56,11 +61,27 @@ namespace Graber
                     string result = GetSingleRegexMatchResult(gs, content);
                     File.AppendAllLines(fileName, new string[] { result });
                 //}).BeginInvoke(o => { }, null);
+=======
+            
+            string fileName = Path.Combine(gs.SaveDirect, lf.SaveFileName);
+            foreach (string url in urls)
+            {
+                
+                
+                    GraberWebClient webClient = new GraberWebClient(url, null);
+                    
+                    webClient.BeginDownString(o => {
+                        string content = webClient.EndDownString(o);
+                        string result  = GetSingleRegexMatchResult(gs, content);
+                        File.AppendAllLines(fileName, new string[] { result });
+                    }, null);
+>>>>>>> origin/master
             }
         }
 
         private void Export(GrabSite gs, PagedLinkUrl plu)
         {
+<<<<<<< HEAD
             WebClient webClient = new WebClient();
 
             webClient.Encoding = gs.Encoding;
@@ -72,6 +93,15 @@ namespace Graber
                     IEnumerable<string> results = GetRegexMatchResults(gs, content);
                     File.AppendAllLines(fileName, results);
                 
+=======
+            string fileName = Path.Combine(gs.SaveDirect, plu.SaveFileName);
+            for (int i = 0; i < plu.PageCount; i++)
+            {
+                GraberWebClient webClient = new GraberWebClient(string.Format(plu.Url, plu.StartPageIndex + i), null);
+                string content = webClient.DownString();
+                IEnumerable<string> results = GetRegexMatchResults(gs, content);
+                File.AppendAllLines(fileName, results);
+>>>>>>> origin/master
             }
 
         }
@@ -98,7 +128,15 @@ namespace Graber
                 }
                 else
                 {
+<<<<<<< HEAD
                     matchStrs.Add(match.Groups[1].Value ?? string.Empty);
+=======
+                    for (int i = 1; i < match.Groups.Count; i++)
+                    {
+                        Group group = match.Groups[i];
+                        matchStrs.Add(group.Value);
+                    }
+>>>>>>> origin/master
                 }
             }
             return gs._GrabInfo.Prefix + string.Join(gs._GrabInfo.Regexs.Seperate, matchStrs);
