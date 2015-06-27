@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
 Graber.suo
 Graber.suo
 bin/Debug/grabsite.xml
@@ -56,3 +57,5 @@ obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 obj/x86/Debug/Graber.exe
 bin/Debug/grabsite.xml
 bin/Debug/grabsite.xml
+=======
+>>>>>>> parent of d0d324b... 2015062502company
