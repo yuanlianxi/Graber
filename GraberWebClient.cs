@@ -1,18 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Net;
 using System.IO;
 using System.IO.Compression;
+using System.Net;
+using System.Text;
 
 namespace Graber
 {
-    class GraberWebClient
+    internal class GraberWebClient
     {
         private HttpWebRequest webRequest;
         private string url;
         private Encoding encoding;
+
         public GraberWebClient(string url, Encoding encoding)
         {
             this.url = url;
@@ -20,22 +19,32 @@ namespace Graber
             webRequest = HttpWebRequest.Create(url) as HttpWebRequest;
         }
 
-        public IAsyncResult BeginDownString(AsyncCallback callBack,object state)
+        public IAsyncResult BeginDownString(AsyncCallback callBack, object state)
         {
             return webRequest.BeginGetResponse(callBack, state);
+        }
+        public Stream DownStream()
+        {
+            HttpWebResponse webResponse = webRequest.GetResponse() as HttpWebResponse;
+            return webResponse.GetResponseStream();
+        }
+        public HttpWebResponse GetResponse()
+        {
+            return webRequest.GetResponse() as HttpWebResponse;
         }
         public string DownString()
         {
             HttpWebResponse webResponse = webRequest.GetResponse() as HttpWebResponse;
             return GetString(webResponse);
         }
+
         public string EndDownString(IAsyncResult iresult)
         {
             HttpWebResponse webResponse = webRequest.EndGetResponse(iresult) as HttpWebResponse;
             return GetString(webResponse);
         }
 
-        private string GetString(HttpWebResponse webResponse)
+        public string GetString(HttpWebResponse webResponse)
         {
             Stream stream = webResponse.GetResponseStream();
             Encoding encoding = Encoding.GetEncoding(webResponse.CharacterSet ?? "gb2312");

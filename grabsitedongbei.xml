@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grab>
+  <sites>
+    <site>
+      <saveDirect>汽车之家东北</saveDirect>
+      <linkInfo>
+        <links>
+          <linkUrlPaged>
+            <url>http://www.che168.com/shenyang/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>shenyang.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>8</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/dalian/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>dalian.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/changchun/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>changchun.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/haerbin/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>haerbin.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+        </links>
+        <grabInfo>
+          <prefix>http://www.che168.com</prefix>
+          <regexs>
+            <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<i class="icon-add"></i>[^<]+</span[^<]+</span>\s+<a\s+href="([^"]+)]]></regex>
+            <regex></regex>
+          </regexs>
+        </grabInfo>
+      </linkInfo>
+    </site>
+    <site>
+    <saveDirect>汽车之家东北</saveDirect>
+    <linkInfo>
+      <links>
+        <linkFile>
+            <linkFilePath>shenyang.txt</linkFilePath>
+            <saveFileName>shenyangCarInfo.txt</saveFileName>
+          </linkFile>
+        <linkFile>
+          <linkFilePath>dalian.txt</linkFilePath>
+          <saveFileName>daliancarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>changchun.txt</linkFilePath>
+          <saveFileName>changchunCarInfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>haerbin.txt</linkFilePath>
+          <saveFileName>haerbincarinfo.txt</saveFileName>
+        </linkFile>
+      </links>
+      <grabInfo>
+        <prefix></prefix>
+        <regexs>
+          <seperate xml:space="preserve">&#x0009;</seperate>
+          <regex><![CDATA[<h1[^>]+>([^<]+)]]></regex>
+          <regex><![CDATA[<h2[^>]+>([^<]+)]]></regex>
+          <regex><![CDATA[<span class="data-left">\s+(\d+)[^\d]+(\d+)[^\s]+\s+<span[^<]+</span>\s+<span>([^.]+\.[\d]+)([^<]+)</span>]]></regex>
+          <regex><![CDATA[<div class='part5' id='carOwnerInfo'>\s+<div><span class='font18'>([^<]+)</span>]]></regex>
+          <regex><![CDATA[<a class='link999'\s+target="_blank"\s+href="/CarDetail/UcList_(\d+)]]></regex>
+        </regexs>
+      </grabInfo>
+    </linkInfo>
+    </site>
+  </sites>
+</grab>

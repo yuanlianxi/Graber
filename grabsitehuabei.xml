@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grab>
+  <sites>
+    <site>
+      <saveDirect>汽车之家华北</saveDirect>
+      <linkInfo>
+        <links>
+          <linkUrlPaged>
+            <url>http://www.che168.com/tianjin/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>tianjin.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/jinan/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>jinan.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/qingdao/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>qingdao.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/tangshan/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>tangshan.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://www.che168.com/xian/a0_0ms1dgscncgpilto8csp{0}exe3/</url>
+            <saveFileName>xian.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>3</pageCount>
+          </linkUrlPaged>
+        </links>
+        <grabInfo>
+          <prefix>http://www.che168.com</prefix>
+          <regexs>
+            <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<i class="icon-add"></i>[^<]+</span[^<]+</span>\s+<a\s+href="([^"]+)]]></regex>
+            <regex></regex>
+          </regexs>
+        </grabInfo>
+      </linkInfo>
+    </site>
+    <site>
+    <saveDirect>汽车之家华北</saveDirect>
+    <linkInfo>
+      <links>
+        <linkFile>
+            <linkFilePath>tianjin.txt</linkFilePath>
+            <saveFileName>tianjinCarInfo.txt</saveFileName>
+          </linkFile>
+        <linkFile>
+          <linkFilePath>jinan.txt</linkFilePath>
+          <saveFileName>jinanCarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>qingdao.txt</linkFilePath>
+          <saveFileName>qingdaoCarInfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>tangshan.txt</linkFilePath>
+          <saveFileName>tangshanCarinfo.txt</saveFileName>
+        </linkFile>
+        <linkFile>
+          <linkFilePath>xian.txt</linkFilePath>
+          <saveFileName>xianCarinfo.txt</saveFileName>
+        </linkFile>
+      </links>
+      <grabInfo>
+        <prefix></prefix>
+        <regexs>
+          <seperate xml:space="preserve">&#x0009;</seperate>
+          <regex><![CDATA[<h1[^>]+>([^<]+)]]></regex>
+          <regex><![CDATA[<h2[^>]+>([^<]+)]]></regex>
+          <regex><![CDATA[<span class="data-left">\s+(\d+)[^\d]+(\d+)[^\s]+\s+<span[^<]+</span>\s+<span>([^.]+\.[\d]+)([^<]+)</span>]]></regex>
+          <regex><![CDATA[<div class='part5' id='carOwnerInfo'>\s+<div><span class='font18'>([^<]+)</span>]]></regex>
+          <regex><![CDATA[<a class='link999'\s+target="_blank"\s+href="/CarDetail/UcList_(\d+)]]></regex>
+        </regexs>
+      </grabInfo>
+    </linkInfo>
+    </site>
+  </sites>
+</grab>

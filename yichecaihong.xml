@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grab>
+  <sites>
+    <site>
+      <saveDirect>易车二手车彩虹</saveDirect>
+      <linkInfo>
+        <links>
+          <linkUrlPaged>
+            <url>http://hangzhou.taoche.com/buycar/pges1bxcdza/?orderid=5&amp;direction=2&amp;page=1</url>
+            <saveFileName>hangzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>1</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://shanghai.taoche.com/buycar/pges1bxcdza/?orderid=5&amp;direction=2&amp;page={0}</url>
+            <saveFileName>shanghai.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>1</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://suzhou.taoche.com/buycar/pges1bxcdza/?orderid=5&amp;direction=2&amp;page={0}</url>
+            <saveFileName>suzhou.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>1</pageCount>
+          </linkUrlPaged>
+          <linkUrlPaged>
+            <url>http://nanjing.taoche.com/buycar/pges1bxcdza/?orderid=5&amp;direction=2&amp;page={0}</url>
+            <saveFileName>nanjing.txt</saveFileName>
+            <startPageIndex>1</startPageIndex>
+            <pageCount>1</pageCount>
+          </linkUrlPaged>
+        </links>
+        <grabInfo>
+          <prefix></prefix>
+          <regexs>
+            <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<div class="cary-infor ">\s+<h3 class="">\s+<a href='([^']+)]]></regex>
+          </regexs>
+        </grabInfo>
+      </linkInfo>
+    </site>
+    <site>
+      <saveDirect>易车二手车彩虹</saveDirect>
+      <linkInfo>
+        <links>
+          <linkFile>
+            <linkFilePath>hangzhou.txt</linkFilePath>
+            <saveFileName>hangzhouCarInfo.txt</saveFileName>
+          </linkFile>
+          <linkFile>
+            <linkFilePath>shanghai.txt</linkFilePath>
+            <saveFileName>shanghaiCarinfo.txt</saveFileName>
+          </linkFile>
+          <linkFile>
+            <linkFilePath>suzhou.txt</linkFilePath>
+            <saveFileName>suzhouCarInfo.txt</saveFileName>
+          </linkFile>
+          <linkFile>
+            <linkFilePath>nanjing.txt</linkFilePath>
+            <saveFileName>nanjingCarinfo.txt</saveFileName>
+          </linkFile>
+        </links>
+        <grabInfo>
+          <prefix></prefix>
+          <regexs>
+            <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<li class="w250"><span>车辆品牌：</span>[^>]+>([^<]+)]]></regex>
+            <regex><![CDATA[<li><span>车辆型号：</span>[^>]+>([^<]+)]]></regex>
+            <regex><![CDATA[<li class="w250"><span>上牌时间：</span>[^>]+>\s+(\d+)]]></regex>
+            <regex><![CDATA[<li class="w250"><span>上牌时间：</span>[^>]+>\s+\d+年(\d+)]]></regex>
+            <regex><![CDATA[<li><span>行驶里程：</span>[^>]+>(\d+\.?\d*)]]></regex>
+            <regex><![CDATA[<li><span>行驶里程：</span>[^>]+>\d+\.?\d*([^<]+)]]></regex>
+            <regex><![CDATA[联系人：([^\d\s]+)]]></regex>
+            <regex><![CDATA[class="tc14-cydh" style="background-image: url\('([^']+)]]></regex>
+          </regexs>
+        </grabInfo>
+      </linkInfo>
+    </site>
+  </sites>
+</grab>

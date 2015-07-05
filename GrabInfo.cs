@@ -1,22 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Graber
 {
-    class GrabRegexs {
+    internal class GrabRegexs
+    {
         public string Seperate { get; set; }
-        
-        public List<Regex> Regexs { get; set; }
-        public GrabRegexs() { Regexs = new List<Regex>(); }
 
+        public List<Regex> Regexs { get; set; }
+
+        public GrabRegexs()
+        {
+            Regexs = new List<Regex>();
+        }
     }
-    class GrabInfo
+
+    internal class GrabInfo
     {
         public string Prefix { get; set; }
+
         public GrabRegexs Regexs { get; set; }
-        public GrabInfo() { Regexs = new GrabRegexs(); }
+
+        public GrabInfo()
+        {
+            Regexs = new GrabRegexs();
+        }
     }
 }

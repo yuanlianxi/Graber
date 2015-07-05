@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Net;
 using System.Text.RegularExpressions;
+using System.Net;
 
 namespace Graber
 {
-    class Graber
+    internal class Graber
     {
         private List<GrabSite> gss = new List<GrabSite>();
+
         public void LoadFromConfigFile(string fileName)
         {
             gss = GraberConfig.CreateGrabSite(fileName);
@@ -20,51 +18,55 @@ namespace Graber
         {
             foreach (var gs in gss)
             {
-
-
                 if (!string.IsNullOrEmpty(gs.SaveDirect) && !Directory.Exists(gs.SaveDirect))
                 {
                     Directory.CreateDirectory(gs.SaveDirect);
                 }
                 foreach (PagedLinkUrl plu in gs._GrabLinkInfo.PagedLinkUrls)
                 {
-                    Export(gs,plu);
+                    Export(gs, plu);
                 }
                 foreach (LinkFile lf in gs._GrabLinkInfo.LinkFiles)
                 {
-                    Export(gs,lf);
+                    Export(gs, lf);
                 }
             }
         }
 
-
-        private void Export(GrabSite gs,LinkFile lf)
+        private void Export(GrabSite gs, LinkFile lf)
         {
-            IEnumerable<string> urls = File.ReadLines(Path.Combine(gs.SaveDirect, lf.LinkFilePath));
+            IEnumerable<string> urls = File.ReadAllLines(Path.Combine(gs.SaveDirect, lf.LinkFilePath));
 
-            WebClient webClient = new WebClient();
             string fileName = Path.Combine(gs.SaveDirect, lf.SaveFileName);
+            object _objLock = new object();
             foreach (string url in urls)
             {
-                string content = webClient.DownloadString(url);
-                string result = GetSingleRegexMatchResult(gs,content);
-                File.AppendAllLines(fileName,new string[]{result});
+                GraberWebClient webClient = new GraberWebClient(url, null);
+                webClient.BeginDownString((o) =>
+                {
+                    string content = webClient.EndDownString(o);
+                    string result = GetSingleRegexMatchResult(gs, content);
+                    lock (_objLock)
+                    {
+                        File.AppendAllText(fileName, result + "\r\n");
+                    }
+                }, null);
             }
         }
 
         private void Export(GrabSite gs, PagedLinkUrl plu)
         {
-            WebClient webClient = new WebClient();
-
             string fileName = Path.Combine(gs.SaveDirect, plu.SaveFileName);
             for (int i = 0; i < plu.PageCount; i++)
             {
-                string content = webClient.DownloadString(string.Format(plu.Url, plu.StartPageIndex + i));
-                IEnumerable<string> results = GetRegexMatchResults(gs,content);
-                File.AppendAllLines(fileName, results);
+                GraberWebClient webClient = new GraberWebClient(string.Format(plu.Url, i + 1), null);
+                string content = webClient.DownString();
+                string[] results = GetRegexMatchResults(gs, content);
+                File.AppendAllText(fileName, string.Join("\r\n", results) + "\r\n");
             }
         }
-        private IEnumerable<string> GetRegexMatchResults(GrabSite gs, string content)
+
+        private string[] GetRegexMatchResults(GrabSite gs, string content)
         {
             List<string> results = new List<string>();
             Regex reg = gs._GrabInfo.Regexs.Regexs[0];
@@ -73,21 +75,33 @@ namespace Graber
             {
                 results.Add(gs._GrabInfo.Prefix + match.Groups[1].Value);
             }
-            return results;
+            return results.ToArray();
         }
+
         private string GetSingleRegexMatchResult(GrabSite gs, string content)
         {
             List<string> matchStrs = new List<string>();
-            foreach (Regex reg in gs._GrabInfo.Regexs.Regexs)
+            List<Regex> regexs = gs._GrabInfo.Regexs.Regexs;
+            for (int ireg = 0; ireg < regexs.Count; ireg++)
             {
+                Regex reg = regexs[ireg];
                 Match match = reg.Match(content);
-                for (int i = 1; i < match.Groups.Count; i++)
+                if (match.Groups.Count == 1)
                 {
-                    Group group = match.Groups[i];
-                    matchStrs.Add(group.Value);
+                    matchStrs.Add(string.Empty);
+                }
+                else
+                {
+                    for (int i = 1; i < match.Groups.Count; i++)
+                    {
+                        Group group = match.Groups[i];
+                        string result = group.Value.Trim();
+                        result = GrabResultProcessor.Process(result);
+                        matchStrs.Add(result);
+                    }
                 }
             }
-            return gs._GrabInfo.Prefix + string.Join(gs._GrabInfo.Regexs.Seperate, matchStrs);
+            return gs._GrabInfo.Prefix + string.Join(gs._GrabInfo.Regexs.Seperate, matchStrs.ToArray());
         }
     }
 }

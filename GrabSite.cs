@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Graber
+﻿namespace Graber
 {
-    class GrabSite
+    internal class GrabSite
     {
         public string SaveDirect { get; set; }
+
         public GrabLinkInfo _GrabLinkInfo { get; set; }
+
         public GrabInfo _GrabInfo { get; set; }
-        public GrabSite() {
+
+        public GrabSite()
+        {
             _GrabLinkInfo = new GrabLinkInfo();
-            _GrabInfo = new GrabInfo(); 
-            
+            _GrabInfo = new GrabInfo();
         }
     }
 }

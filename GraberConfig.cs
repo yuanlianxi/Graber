@@ -1,23 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml;
-using System.Xml.Linq;
 using System.Text.RegularExpressions;
+using System.Xml;
 
 namespace Graber
 {
-    
-    class GraberConfig
+    internal class GraberConfig
     {
         public static List<GrabSite> CreateGrabSite(string fileName)
         {
             XmlDocument doc = new XmlDocument();
             //XDocument xDoc = new XDocument();
-            
+
             doc.Load(fileName);
-            
+
             XmlNode root = doc.DocumentElement;
             XmlNodeList siteNodes = root.SelectNodes("sites/site");
             List<GrabSite> gss = new List<GrabSite>();
@@ -32,13 +28,14 @@ namespace Graber
                 InitGrabInfo(gs._GrabInfo, grabInfoNode);
                 gss.Add(gs);
             }
-            
+
             return gss;
         }
+
         private static void InitLinkInfo(GrabLinkInfo linkInfo, XmlNode linkInfoNode)
         {
             XmlNodeList linkNodes = linkInfoNode.SelectNodes("links/linkFile");
-            if (linkNodes.Count> 0)
+            if (linkNodes.Count > 0)
             {
                 foreach (XmlNode node in linkNodes)
                 {
@@ -48,7 +45,6 @@ namespace Graber
                     XmlNode saveFileNode = node.SelectSingleNode("saveFileName");
                     lf.SaveFileName = saveFileNode.InnerText ?? string.Empty;
                     linkInfo.LinkFiles.Add(lf);
-
                 }
             }
             linkNodes = linkInfoNode.SelectNodes("links/linkUrlPaged");
@@ -62,22 +58,23 @@ namespace Graber
                 XmlNode startPageIndexNode = node.SelectSingleNode("startPageIndex");
                 plu.StartPageIndex = Convert.ToInt32(startPageIndexNode.InnerText ?? string.Empty);
                 XmlNode pageCountNode = node.SelectSingleNode("pageCount");
-                plu.PageCount = Convert.ToInt32( pageCountNode.InnerText ?? string.Empty);
+                plu.PageCount = Convert.ToInt32(pageCountNode.InnerText ?? string.Empty);
                 linkInfo.PagedLinkUrls.Add(plu);
             }
         }
-        private static void InitGrabInfo(GrabInfo grabInfo,XmlNode grabNode) {
+
+        private static void InitGrabInfo(GrabInfo grabInfo, XmlNode grabNode)
+        {
             XmlNode prefixNode = grabNode.SelectSingleNode("prefix");
-            grabInfo.Prefix = prefixNode.InnerText ??string.Empty;
+            grabInfo.Prefix = prefixNode.InnerText ?? string.Empty;
             XmlNode regexsNode = grabNode.SelectSingleNode("regexs");
             XmlNode seperateNode = regexsNode.SelectSingleNode("seperate");
-            grabInfo.Regexs.Seperate =  seperateNode.InnerText ?? string.Empty;
+            grabInfo.Regexs.Seperate = seperateNode.InnerText ?? string.Empty;
             XmlNodeList regexNodes = regexsNode.SelectNodes("regex");
             foreach (XmlNode node in regexNodes)
             {
                 grabInfo.Regexs.Regexs.Add(new Regex(node.InnerText ?? string.Empty));
             }
-
         }
     }
 }
