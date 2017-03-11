@@ -65,5 +65,22 @@ namespace Graber
             graber.LoadFromConfigFile("yichedongbei.xml");
             graber.Grab();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            string fileName = textBox1.Text.Trim();
+            if (File.Exists(fileName))
+            {
+                Graber graber = new Graber();
+                graber.LoadFromConfigFile(fileName);
+                graber.Grab();
+            }
+            else
+            {
+                MessageBox.Show("文件不存在!");
+            }
+            
+        }
     }
 }

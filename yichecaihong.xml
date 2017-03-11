@@ -64,6 +64,7 @@
           <prefix></prefix>
           <regexs>
             <seperate xml:space="preserve">&#x0009;</seperate>
+            <regex><![CDATA[<span>牌照地点：</span>[^>]+>([^<]+)]]></regex>
             <regex><![CDATA[<li class="w250"><span>车辆品牌：</span>[^>]+>([^<]+)]]></regex>
             <regex><![CDATA[<li><span>车辆型号：</span>[^>]+>([^<]+)]]></regex>
             <regex><![CDATA[<li class="w250"><span>上牌时间：</span>[^>]+>\s+(\d+)]]></regex>

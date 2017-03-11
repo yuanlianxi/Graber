@@ -75,6 +75,7 @@
         <prefix></prefix>
         <regexs>
           <seperate xml:space="preserve">&#x0009;</seperate>
+          <regex><![CDATA[当前位置：<a href[^>]+>[^>]+>[^>]+>([^<]+)]]></regex>
           <regex><![CDATA[<h1[^>]+>([^<]+)]]></regex>
           <regex><![CDATA[<h2[^>]+>([^<]+)]]></regex>
           <regex><![CDATA[<span class="data-left">\s+(\d+)[^\d]+(\d+)[^\s]+\s+<span[^<]+</span>\s+<span>([^.]+\.[\d]+)([^<]+)</span>]]></regex>

@@ -41,16 +41,19 @@ namespace Graber
             object _objLock = new object();
             foreach (string url in urls)
             {
-                GraberWebClient webClient = new GraberWebClient(url, null);
-                webClient.BeginDownString((o) =>
+                if (!Regex.IsMatch(url, @"^\s*$"))
                 {
-                    string content = webClient.EndDownString(o);
-                    string result = GetSingleRegexMatchResult(gs, content);
-                    lock (_objLock)
+                    GraberWebClient webClient = new GraberWebClient(url, null);
+                    webClient.BeginDownString((o) =>
                     {
-                        File.AppendAllText(fileName, result + "\r\n");
-                    }
-                }, null);
+                        string content = webClient.EndDownString(o);
+                        string result = GetSingleRegexMatchResult(gs, content);
+                        lock (_objLock)
+                        {
+                            File.AppendAllText(fileName, result + "\r\n");
+                        }
+                    }, null);
+                }
             }
         }
 
@@ -62,7 +65,8 @@ namespace Graber
                 GraberWebClient webClient = new GraberWebClient(string.Format(plu.Url, i + 1), null);
                 string content = webClient.DownString();
                 string[] results = GetRegexMatchResults(gs, content);
-                File.AppendAllText(fileName, string.Join("\r\n", results) + "\r\n");
+                
+                File.AppendAllText(fileName, string.Join("\r\n", results) );
             }
         }
 
